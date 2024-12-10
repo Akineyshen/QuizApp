@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="button_true">True</string>
+    <string name="button_false">False</string>
+    <string name="button_next">Next</string>
+
+    <string name="q_activity">Activity is one of the components of the Android application</string>
+    <string name="q_version">Android 8 is the latest version of Android</string>
+    <string name="q_listener">Android apps are event controlled</string>
+    <string name="q_resources">Android App resources are defined in files .xml</string>
+    <string name="q_find_resources">We refer to resources in an Android app by their names</string>
+
+    <string name="correct_answer">Correct!</string>
+    <string name="incorrect_answer">Incorrect!</string>
+
+    <string name="final_result">Twój wynik: %1$d z %2$d poprawnych odpowiedzi.</string>
+
+    <string name="answer_was_shown">The answer was already displayed.</string>
+</resources>
