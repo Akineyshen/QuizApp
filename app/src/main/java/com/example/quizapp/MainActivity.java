@@ -99,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(savedInstanceState != null) {
             currentIndex = savedInstanceState.getInt(KEY_CURRENT_INDEX);
+            correctAnswersCount = savedInstanceState.getInt("correctAnswersCount");
         }
 
         Button promptButton = findViewById(R.id.button2);
@@ -170,6 +171,7 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
         Log.d(TAG, "The lifecycle method is called: onSaveInstanceState");
         outState.putInt(KEY_CURRENT_INDEX, currentIndex);
+        outState.putInt("correctAnswersCount", correctAnswersCount);
     }
 
     @Override
